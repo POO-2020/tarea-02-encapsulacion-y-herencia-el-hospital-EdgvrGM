@@ -1,8 +1,8 @@
-import Fecha from "./fecha.js";
-import Tiempo from "./tiempo.js";
-import Nombre from "./nombre.js";
-import Doctor from "./doctor.js";
-import Paciente from "./paciente.js";
+import Fecha from "./fecha.js/index.js";
+import Tiempo from "./tiempo.js/index.js";
+import Nombre from "./nombre.js/index.js";
+import Doctor from "./doctor.js/index.js";
+import Paciente from "./paciente.js/index.js";
 
 export default class Cita {
   constructor(fecha, hora, doctor, paciente) {
