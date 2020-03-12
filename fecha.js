@@ -6,7 +6,7 @@ export default class Fecha {
    * @param {number} mes
    * @param {number} año
    */
-  constructor(dia, mes, año) {
+  constructor({dia, mes, año}) {
     this._fecha = new Date(año, mes - 1, dia);
     this._diasSemana = [
       "Domingo",
